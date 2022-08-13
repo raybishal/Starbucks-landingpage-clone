@@ -1,0 +1,227 @@
+*{
+    box-sizing: inherit;
+}
+.announcement{
+    display:flex;
+    justify-content: space-between;
+    max-width:1440px;
+    margin:0 auto;
+    height:100%;
+    margin-bottom:32px;
+}
+.announcement .text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    width:50%;
+}
+
+.announcement .text h1{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top:0;
+    margin-bottom:24px;
+}
+
+
+.announcement .text2{
+    display: block;
+    font-size: 24px;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
+    margin-top:0;
+    margin-bottom:24px;
+    max-width:425.06px;
+    font-weight: 300;
+}
+
+.announcement img{
+
+    height:100%;
+}
+
+
+.announcement .buttons{
+  
+    padding:7px 16px;
+    margin-top:32px;
+    font-weight:600;
+    border:1px solid;
+    border-radius: 70px;
+}
+
+
+.reward .image{
+    width: 50%;
+    height:210px;
+}
+
+
+
+
+.reward .text{
+    width:50%;
+     background-color:#1e3932 ;
+}
+
+.reward h1{
+    display: flex;
+    color:white;
+    justify-content: center;
+
+}
+
+
+.reward .buttons{
+    color:white;
+}
+
+.learn .image{
+    width:50%;
+    height:625px;
+}
+
+
+.learn img{
+
+    height:100%;
+}
+
+.learn .text{
+    background-color:#fa91aa ;
+}
+
+.learn .text h1{
+    color:#1e3932;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top:0;
+    margin-bottom:24px;
+}
+
+.learn .text2{
+    color:#1e3932;
+}
+
+.learn .buttons{
+    color:#1e3932;
+}
+
+
+
+.order .image{
+    width:50%;
+    height:625px;
+}
+
+
+.order img{
+
+    height:100%;
+}
+
+.order .text{
+    background-color:#f06464 ;
+}
+
+.order .text h1{
+    color:white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top:0;
+    margin-bottom:24px;
+}
+
+.order .text2{
+    color:white;
+}
+
+.order .buttons{
+    color:white;
+}
+
+.treat .image{
+    width:50%;
+    height:625px;
+}
+
+
+.treat img{
+
+    height:100%;
+}
+
+.treat .text{
+    background-color:#d4e9e2 ;
+}
+
+.treat .text h1{
+    color:#1e3932;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top:0;
+    margin-bottom:24px;
+}
+
+.treat .text2{
+    color:#1e3932;
+}
+
+.treat .buttons{
+    color:#1e3932;
+}
+
+
+.general .image{
+    width:50%;
+    height:420px;
+}
+
+
+
+
+.general .text{
+    width:50%;
+    color:white;
+     background-color:#1e3932 ;
+}
+
+.general h1{
+    display: flex;
+    color:white;
+    justify-content: center;
+
+}
+
+
+
+.general .buttons{
+    color:white;
+}
+
+.text3{
+    align-items: center;
+    margin:auto;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    padding:32px;
+    font-size: 14px;
+    font-weight:400;
+    max-width:700px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.buttons:hover{
+    background-color: rgb(0, 128, 0,0.2);
+    transition:all 0.2s ease;
+}
